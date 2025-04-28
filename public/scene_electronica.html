@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="../src/assets/Logo/logo.ico" type="image/x-icon" />
+  <title>Villa VR</title>
+  <style>
+    #linkContainer {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 5px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body style="margin: 0; overflow: hidden">
+  <div id="linkContainer">
+    <a href="/home">Regresar</a>
+  </div>
+
+  <a-scene>
+    <a-sky src="../src/assets/360/vr_electronica.jpg" rotation="0 -130 0"></a-sky>
+    <a-text font="kelsonsans" value="Electronica" width="6" position="-1 0.25 -2.6" rotation="0 15 0"></a-text>
+  </a-scene>
+
+  <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+</body>
+
+</html>

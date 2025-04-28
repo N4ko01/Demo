@@ -1,0 +1,74 @@
+.aboutus_container {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.aboutus_hero {
+    background-image: url("https://www.susangreenecopywriter.com/wp-content/uploads/2013/01/photo-1518081461904-9d8f136351c2.jpg");
+    height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus_hero_title {
+    color: white;
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+
+
+.aboutus_section,
+.community_section,
+.aboutus_project {
+    max-width: 1000px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.aboutus_section h2,
+.community_section h2,
+.aboutus_project h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #0056b3;
+}
+
+.aboutus_section p,
+.community_section p,
+.aboutus_project p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+/* Imágenes */
+.aboutus_image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Animación de aparición suave */
+.fade_in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInMove 1.5s forwards;
+}
+
+@keyframes fadeInMove {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

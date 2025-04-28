@@ -1,0 +1,146 @@
+.info1,
+.info2,
+.info3 {
+    transition: opacity 1s ease;
+    opacity: 0.05;
+}
+
+.DataContainers {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 25rem 5rem 25rem;
+}
+
+.info1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 7rem
+}
+
+.info1__imgReference {
+    background: url("https://discovereyecare.com/wp-content/uploads/2024/01/Is-Virtual-Reality-VR-Bad-for-Your-Eyes-Hero-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    height: 150px;
+    width: 300px;
+    padding: 5rem;
+}
+
+.info1__text {
+    flex: 1;
+    padding: 1rem 5rem 1rem 1rem;
+    text-align: left;
+}
+
+.info2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 7rem
+}
+
+.info2__imgReference {
+    background: url("https://cdn.growthjockey.com/role-of-vr-in-wearable-electronics-bfc6f2-1920x1435.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    height: 150px;
+    width: 300px;
+    padding: 5rem;
+}
+
+.info2__text {
+    flex: 1;
+    padding: 1rem 1rem 1rem 5rem;
+    text-align: right;
+}
+
+
+
+.info3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem
+}
+
+.material-symbols-outlined {
+    font-size: 2.3rem;
+}
+
+.containerbenefits__title {}
+
+.containerbenefit__skills {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 12rem);
+
+
+}
+
+.containerskills__text>p {}
+
+.skills {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.skills:hover {
+    background-color: #f6a06b1e;
+}
+
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 25rem;
+    gap: 3rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 300px;
+}
+
+.form input,
+.form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form button {
+    background-color: #f6a06b;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #f6843a;
+}
+
+.formImage img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}

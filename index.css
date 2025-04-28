@@ -1,0 +1,22 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
