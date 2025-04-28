@@ -1,5 +1,5 @@
 import React from "react";
-import "./CareerOptions.css";
+import "./careerOptions.css";
 
 const careers = [
     {
